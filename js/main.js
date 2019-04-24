@@ -176,6 +176,7 @@ var dashboard = function() {
 					filterboxHtml += '<option value="' + group[i].usage + '" ' + selected + '>' + group[i].usage + '</option>'
 				}
 			}
+			
 			filterboxHtml += '</optgroup>'
 			filterboxHtml = filterboxHtml.replace("<optgroup></optgroup>", "")
 			$(".group-filter").html(filterboxHtml)
