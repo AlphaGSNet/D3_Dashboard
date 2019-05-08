@@ -86,10 +86,10 @@ var groupName = {
 var filterValue = ['All']
 
 var margin = {
-	top : 40,
-	right : 40,
-	bottom : 20,
-	left : 40
+	top: 40,
+	right: 40,
+	bottom: 20,
+	left: 40
 }
 
 var dashboard = function() {
